@@ -154,6 +154,8 @@ return filledpages;
 ```
 This would spawn the book at X 500, Y 120, Z 500 in the world you passed to the World world parameter in createBook.
 ##### How to use the class #####
+
+```Java
 //Some code to get a world.
 List<NbtString> pages = new ArrayList<>();
 //This is the free example JSON I was talking about.
@@ -161,4 +163,9 @@ pages.add(NbtString.of("{"extra":[{"bold":true,"color":"dark_green","text":"Gree
 //You can keep adding pages. Up to 100 of them (as of the time of writing 2021-06-30) in Java Edition.
 BookCreator bookcreator = new BookCreator();
 boolean bookCreatorSuccess = bookcreator.createBook((Item) Registry.ITEM.get(new Identifier("written_book")),"Book of wonder","Yortni",pages,world);;
-And then do whatever you want with the boolean to verify, now fuck off I am drinking beer.
+```
+And then do whatever you want with the boolean to verify, now fuck off I am drinking beer. This is it. 
+
+A last hint: Utility classes are better off being static and the registered items are static.
+But you should atleast try some basic java programming before, so you should know how to make a static class etc.
+I was drunk when I made this tutorial and that's why the utility class is created like a object...
