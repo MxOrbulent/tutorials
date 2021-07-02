@@ -36,12 +36,12 @@ No, we need to grab the book item from the registery itself.
 This is how you grab from the registry.
 ```Java
 BookCreator bookcreator = new BookCreator((Item) Registry.ITEM.get(new Identifier("written_book")));
-</code>
+```
 This grabs the written_book from the registry, and casts it to a Item, which is what we need in order to start
 manipulating our new "copy".
 
 Now look at this code.
-<code java [enable_line_numbers="true"]>
+```Java
 public class BookCreator {
  	
 	public ItemEntity createBook(Item unwrittenbook) {
@@ -93,7 +93,9 @@ return filledpages;
 ```
 We grab the list of NbtStrings and add them to our NbtList and then return the NbtList to filledPages
 in the createBook method.
-//{"extra":[{"bold":true,"color":"dark_green","text":"Greetings! \n\nWe have observed your village. But we feel like there's to many living there already.\n\nWe wish you all the best with your\nvillage."},{"text":"\n\n"},{"italic":true,"text":"Stranger"}],"text":""}
+```Text
+{"extra":[{"bold":true,"color":"dark_green","text":"Greetings! \n\nWe have observed your village. But we feel like there's to many living there already.\n\nWe wish you all the best with your\nvillage."},{"text":"\n\n"},{"italic":true,"text":"Stranger"}],"text":""}
+```
 
 Let's add our 2 string parameters and the pages.
 ```Java
