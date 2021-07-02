@@ -1,4 +1,4 @@
-# tutorials
+# Tutorials
 
 In this repo you will find tutorials made by MxOrbulent.
 Unless I say something something, any code examples provided (but not trademarks) are MIT licensed.
