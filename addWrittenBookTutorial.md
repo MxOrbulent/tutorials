@@ -163,7 +163,7 @@ boolean bookCreatorSuccess = bookcreator.createBook((Item) Registry.ITEM.get(new
 ```
 And then do whatever you want with the boolean to verify, now fuck off I am drinking beer. This is it. 
 
-A last hint: Utility classes are better off being static and the registered items are static.
+A last hint: Utility classes are better off being static and the registered items are static, which means there should not be any issues with having the Utility class be static too.
 But you should atleast try some basic java programming before, so you should know how to make a static class etc.
 I was drunk when I made this tutorial and that's why the utility class is created like a object...
 
