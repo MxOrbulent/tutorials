@@ -93,9 +93,6 @@ return filledpages;
 ```
 We grab the list of NbtStrings and add them to our NbtList and then return the NbtList to filledPages
 in the createBook method.
-```Text
-{"extra":[{"bold":true,"color":"dark_green","text":"Greetings! \n\nWe have observed your village. But we feel like there's to many living there already.\n\nWe wish you all the best with your\nvillage."},{"text":"\n\n"},{"italic":true,"text":"Stranger"}],"text":""}
-```
 
 Let's add our 2 string parameters and the pages.
 ```Java
