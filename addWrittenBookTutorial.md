@@ -168,7 +168,10 @@ But you should atleast try some basic java programming before, so you should kno
 I was drunk when I made this tutorial and that's why the utility class is created like a object...
 
 Q: How do I change the cordinates of the bookspawn? I cannot change the cordinates inside the class during runtime yadda dadda whine whine.
+
 A: Learn programming. There is ways to improve this. 
 Generally when people say "Learn programming", we are doing it for your own sake. Copy Paste can only get you so far.
 I'd never have learned how static is properly used in Java if I did not experiment with it.
 At the very very minimum unless you are above 120 IQ, it will take 1 year to "get going" properly with programming. Make that 5 years MINIMUM if you want to reach the halfway point between a beginner and a expert.
+
+This tutorial is aimed at someone who has very little experience with fabric and by extent Minecraft... There's a difference between not knowing what the fuck people were thinking when they make a API or whatever, and basic programming skills. Asking for help with the API is one thing. Asking for help on how a parameter is made in java, there's 1000's of tutorials already.
