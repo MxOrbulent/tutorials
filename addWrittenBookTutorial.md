@@ -166,3 +166,9 @@ And then do whatever you want with the boolean to verify, now fuck off I am drin
 A last hint: Utility classes are better off being static and the registered items are static.
 But you should atleast try some basic java programming before, so you should know how to make a static class etc.
 I was drunk when I made this tutorial and that's why the utility class is created like a object...
+
+Q: How do I change the cordinates of the bookspawn? I cannot change the cordinates inside the class during runtime yadda dadda whine whine.
+A: Learn programming. There is ways to improve this. 
+Generally when people say "Learn programming", we are doing it for your own sake. Copy Paste can only get you so far.
+I'd never have learned how static is properly used in Java if I did not experiment with it.
+At the very very minimum unless you are above 120 IQ, it will take 1 year to "get going" properly with programming. Make that 5 years MINIMUM if you want to reach the halfway point between a beginner and a expert.
